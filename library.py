@@ -18,7 +18,7 @@ def load_books(filename):
             }
                 #Only add if 'bid' is not empty to avoid blank rows
             if book['bid']:
-                book.append(book)
+                books.append(book)
     return books
 
 def save_books(filename, books):
