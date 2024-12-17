@@ -1,7 +1,5 @@
 import csv
 
-
-
 def load_books(filename):
     "read the books from csv file and create a list of books"
     books = []
